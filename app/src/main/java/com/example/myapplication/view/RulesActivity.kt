@@ -41,16 +41,16 @@ class RulesActivity : AppCompatActivity() {
     }
 
     private fun checkAudioStatus(): Boolean {
-        // Implementar lógica para verificar si el audio de fondo está activo
-        return true // Sustituye con la verificación real del estado de audio
+
+        return true
     }
 
     private fun pauseBackgroundAudio() {
-        // Implementar lógica para pausar el audio de fondo
+
     }
 
     private fun startBackgroundAudio() {
-        // Implementar lógica para reanudar el audio de fondo
+
     }
 
     override fun onBackPressed() {
