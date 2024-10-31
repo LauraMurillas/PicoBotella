@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/icon_bottle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/botella_home" />
+
+
+    <TextView
+        android:id="@+id/text_pico_botella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon_bottle"
+        android:layout_centerHorizontal="true"
+        android:text="Pico Botella"
+        android:textColor="#FF5722"
+        android:textSize="50sp"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>
